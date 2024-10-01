@@ -79,7 +79,7 @@ The insurance company "Secure Tomorrow" aims to address several machine learning
   - Trained the regression model using the obfuscated data and compared its performance to the model trained on the original data.
   - **Result**: The F1-score and regression metrics were nearly identical before and after obfuscation, confirming that data privacy was successfully achieved without degrading model accuracy.
 
-6. Key Insights and Observations
+**6. Key Insights and Observations**
 - **Marketing Segmentation:** KNN clustering provided actionable insights into client segments, aiding targeted marketing strategies.
 - **Classification Accuracy:** Decision Tree classifiers showed the best performance for predicting the likelihood of payouts, providing actionable predictive power for the insurance company.
 - **Accurate Regression Estimates:** Linear regression was effective in predicting the number of payouts, with performance metrics indicating a reasonably high degree of accuracy.
