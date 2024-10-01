@@ -62,7 +62,7 @@ The insurance company "Secure Tomorrow" aims to address several machine learning
   - **Baseline Comparison**: All models significantly outperformed the dummy classifier, which had an F1-score near 0.5 (random guessing).
 - **Outcome:** The Decision Tree emerged as the most effective model for classifying clients likely to receive insurance payouts.
 
-**4. Task: Predicting the Number of Insurance Payouts **(Regression)
+**4. Task: Predicting the Number of Insurance Payouts (Regression)**
 - **Objective**: Predict the exact number of insurance payouts a client might receive.
 - **Model Used:** Linear Regression was employed to predict the continuous target variable, focusing on the relationship between client features and payout amounts.
 - **Performance Metrics:**
