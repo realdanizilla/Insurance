@@ -1,9 +1,33 @@
+# Insurance Claims - Secure Tomorrow
+
+- [Project Objective](#project-objective)
+- [Project Structure and Steps](#project-structure-and-steps)
+  - [1. Load the Data](#1-load-the-data)
+  - [2. Preprocessing and Data Exploration](#2-preprocessing-and-data-exploration)
+  - [3. Specific Tasks](#3-specific-tasks)
+    - [Task 1 - Finding Similar Clients](#task-1---finding-similar-clients)
+    - [Task 2 - Classification Model for Payout Prediction](#task-2---classification-model-for-payout-prediction)
+    - [Task 3 - Regression Model for Predicting Payouts](#task-3---regression-model-for-predicting-payouts)
+    - [Task 4 - Data Masking](#task-4---data-masking)
+- [Tools and Techniques Utilized](#tools-and-techniques-utilized)
+- [Specific Results and Outcomes](#specific-results-and-outcomes)
+  - [1. Data Overview and Quality Check](#1-data-overview-and-quality-check)
+  - [2. Task: Finding Similar Clients](#2-task-finding-similar-clients)
+  - [3. Task: Predicting Insurance Payout Probability (Classification)](#3-task-predicting-insurance-payout-probability-classification)
+  - [4. Task: Predicting the Number of Insurance Payouts (Regression)](#4-task-predicting-the-number-of-insurance-payouts-regression)
+  - [5. Task: Data Masking and Privacy Preservation](#5-task-data-masking-and-privacy-preservation)
+  - [6. Key Insights and Observations](#6-key-insights-and-observations)
+- [What I Learned from This Project](#what-i-learned-from-this-project)
+
+
 ## Project Objective
 The insurance company "Secure Tomorrow" aims to address several machine learning tasks to enhance their operations. The project focuses on:
 - Finding similar clients for marketing purposes.
 - Predicting whether a new client will receive an insurance payout.
 - Predicting the number of insurance payouts a new client might receive using linear regression.
 - Protecting client personal data while maintaining the integrity of machine learning models.
+
+[back to top](#insurance-claims---secure-tomorrow)
 
 
 ## Project Structure and Steps
@@ -23,6 +47,7 @@ The insurance company "Secure Tomorrow" aims to address several machine learning
 - Task 4 - Data Masking:
   - Applied data obfuscation techniques to protect client information while ensuring the machine learning model's performance remains unaffected.
 
+[back to top](#insurance-claims---secure-tomorrow)
 
 ## Tools and Techniques Utilized
 
@@ -33,6 +58,8 @@ The insurance company "Secure Tomorrow" aims to address several machine learning
   - Regression: Linear Regression
 - **Data Transformation:** Applied feature scaling and categorical encoding.
 - **Data Privacy:** Data obfuscation techniques to ensure privacy without compromising model accuracy.
+
+[back to top](#insurance-claims---secure-tomorrow)
 
 ## Specific Results and Outcomes
 
@@ -85,6 +112,7 @@ The insurance company "Secure Tomorrow" aims to address several machine learning
 - **Accurate Regression Estimates:** Linear regression was effective in predicting the number of payouts, with performance metrics indicating a reasonably high degree of accuracy.
 - **Privacy Without Compromise:** Data obfuscation did not reduce the model's predictive capabilities, proving that privacy-preserving transformations can be effectively applied to sensitive data.
 
+[back to top](#insurance-claims---secure-tomorrow)
 
 ## What I Learned from This Project
 
@@ -93,3 +121,5 @@ The insurance company "Secure Tomorrow" aims to address several machine learning
 - **Classification and Regression Analysis**: Improved understanding of applying classification for binary outcomes and regression for continuous predictions.
 - **Data Privacy and Security:** Developed and applied data masking techniques that protect client information while ensuring model utility.
 - **Model Evaluation and Validation:** Learned to evaluate models effectively using metrics like F1-score and comparing models against baselines.
+
+[back to top](#insurance-claims---secure-tomorrow)
