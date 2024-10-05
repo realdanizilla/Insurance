@@ -1,23 +1,12 @@
 # Insurance Claims - Secure Tomorrow
 
-- [Project Objective](#project-objective)
-- [Project Structure and Steps](#project-structure-and-steps)
-  - [1. Load the Data](#1-load-the-data)
-  - [2. Preprocessing and Data Exploration](#2-preprocessing-and-data-exploration)
-  - [3. Specific Tasks](#3-specific-tasks)
-    - [Task 1 - Finding Similar Clients](#task-1---finding-similar-clients)
-    - [Task 2 - Classification Model for Payout Prediction](#task-2---classification-model-for-payout-prediction)
-    - [Task 3 - Regression Model for Predicting Payouts](#task-3---regression-model-for-predicting-payouts)
-    - [Task 4 - Data Masking](#task-4---data-masking)
-- [Tools and Techniques Utilized](#tools-and-techniques-utilized)
-- [Specific Results and Outcomes](#specific-results-and-outcomes)
-  - [1. Data Overview and Quality Check](#1-data-overview-and-quality-check)
-  - [2. Task: Finding Similar Clients](#2-task-finding-similar-clients)
-  - [3. Task: Predicting Insurance Payout Probability (Classification)](#3-task-predicting-insurance-payout-probability-classification)
-  - [4. Task: Predicting the Number of Insurance Payouts (Regression)](#4-task-predicting-the-number-of-insurance-payouts-regression)
-  - [5. Task: Data Masking and Privacy Preservation](#5-task-data-masking-and-privacy-preservation)
-  - [6. Key Insights and Observations](#6-key-insights-and-observations)
-- [What I Learned from This Project](#what-i-learned-from-this-project)
+- [Insurance Claims - Secure Tomorrow](#insurance-claims---secure-tomorrow)
+  - [Project Objective](#project-objective)
+  - [Project Structure and Steps](#project-structure-and-steps)
+  - [Tools and Techniques Utilized](#tools-and-techniques-utilized)
+  - [Specific Results and Outcomes](#specific-results-and-outcomes)
+  - [What I Learned from This Project](#what-i-learned-from-this-project)
+  - [How to Use This Repository](#how-to-use-this-repository)
 
 
 ## Project Objective
@@ -121,5 +110,22 @@ The insurance company "Secure Tomorrow" aims to address several machine learning
 - **Classification and Regression Analysis**: Improved understanding of applying classification for binary outcomes and regression for continuous predictions.
 - **Data Privacy and Security:** Developed and applied data masking techniques that protect client information while ensuring model utility.
 - **Model Evaluation and Validation:** Learned to evaluate models effectively using metrics like F1-score and comparing models against baselines.
+
+[back to top](#insurance-claims---secure-tomorrow)
+
+## How to Use This Repository
+
+1. **Clone the Repository**  
+[https://github.com/realdanizilla/Insurance.git](https://github.com/realdanizilla/Insurance.git)
+
+2. **Access Data Files and Notebooks**  
+Explore the dataset containing customer information and Jupyter notebook used for exploratory analysis, feature engineering, and model development.
+
+3. **Run Jupyter Notebooks**  
+Open and execute the notebooks to reproduce analyses, train models, and evaluate their performance.
+
+4. **Model Interpretation and Results**  
+Review the outputs to understand insurance claim prediction models and results.
+
 
 [back to top](#insurance-claims---secure-tomorrow)
